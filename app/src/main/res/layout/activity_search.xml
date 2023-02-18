@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".Search">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/BackBtnSearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/backbtn" />
+
+                <SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edgeshape" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/chorba_saat"
+                android:layout_width="81dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/urbanist"
+                android:gravity="top"
+                android:text="@string/chorba_saat"
+                android:textAppearance="@style/chorba_saat" />
+
+            <TextView
+                android:id="@+id/sana_en_yak"
+                android:layout_width="183dp"
+                android:layout_height="52dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/urbanist"
+                android:gravity="top"
+                android:text="@string/sana_en_yak"
+                android:textAppearance="@style/sana_en_yak" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:scaleType="fitStart"
+                android:scaleX="1"
+                android:scaleY="1"
+                app:srcCompat="@drawable/map" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="82dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:elevation="2dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/discount" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="82dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:elevation="2dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/popular" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="82dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:elevation="2dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/veganbtn" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="119dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:elevation="2dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/recycle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t_m_chorbal"
+                    android:layout_width="330dp"
+                    android:layout_height="29dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/urbanist"
+                    android:gravity="top"
+                    android:text="@string/t_m_chorbal"
+                    android:textAppearance="@style/t_m_chorbal" />
+
+                <TextView
+                    android:id="@+id/hepsin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="top"
+                    android:text="@string/hepsini_g_r"
+                    android:textAppearance="@style/hepsini_g_r" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/karisikallsoup" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mercimekallsoup" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/soganliallsoup" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/searchsoup" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btnedge"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/HomeBtn"
+            android:layout_width="27.67dp"
+            android:layout_height="27.67dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/homebtn" />
+
+        <ImageButton
+            android:id="@+id/FavoriteBtn"
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/favbtn" />
+
+        <ImageButton
+            android:id="@+id/SearchBtn"
+            android:layout_width="28.5dp"
+            android:layout_height="28.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/searchbtn" />
+
+        <ImageButton
+            android:id="@+id/NotificationBtn"
+            android:layout_width="24dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/notificationbtn" />
+
+        <ImageButton
+            android:id="@+id/CartBtn"
+            android:layout_width="29dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/cartbtn" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">food</string>
+    <string name="s_cak_bir_o">
+    Welcome User \nWhat do you say?  \u00F0\u009F\u008D\u00B2
+</string>
+
+    <string name="kategoriler">
+
+Category
+</string>
+
+    <string name="hepsini_g_r">
+
+See all
+</string>
+
+    <string name="pop_ler_">
+
+Popular &#x1f525;
+</string>
+
+    <string name="senin_in_se">
+
+Our pick for you
+</string>
+
+
+    <string name="t_m_chorbal">
+
+All Soups
+</string>
+
+    <string name="chorba_saat">
+
+Soup hour!
+</string>
+
+    <string name="sana_en_yak">
+
+We found \nclosest soup to you
+</string>
+
+    <string name="sepetim">
+
+My Basket
+</string>
+
+    <string name="kar_k_chorb">
+        Mixed soup
+</string>
+
+    <string name="mercimek_x1">
+        Mixed X1
+</string>
+
+    <string name="tl">
+        50 TL
+</string>
+
+
+    <string name="tl1">
+        5 TL
+</string>
+
+    <string name="tl2">
+        10 TL
+</string>
+
+
+    <string name="ekstra_limo">
+        Extra lemon
+</string>
+
+    <string name="orta_boy">
+        Medium size
+</string>
+
+    <string name="adet_tam_bu">
+
+1 piece whole wheat
+</string>
+
+    <string name="tl3">
+
+1 TL
+</string>
+
+    <string name="ndirim">
+
+Discount
+</string>
+
+    <string name="tl4">
+
+-16 TL
+</string>
+
+    <string name="toplam">
+
+Total
+</string>
+
+    <string name="ekle">
+
+Add
+</string>
+
+
+</resources>

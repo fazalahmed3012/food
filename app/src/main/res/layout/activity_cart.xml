@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Cart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/BackBtnCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/backbtn" />
+
+                <SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sepetim"
+                android:layout_width="81dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/urbanist"
+                android:gravity="top"
+                android:text="@string/sepetim"
+                android:textAppearance="@style/sepetim" />
+
+            <TextView
+                android:id="@+id/kar_k_chorb"
+                android:layout_width="151dp"
+                android:layout_height="26dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:fontFamily="@font/urbanist"
+                android:gravity="top"
+                android:text="@string/kar_k_chorb"
+                android:textAppearance="@style/kar_k_chorb" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                app:srcCompat="@drawable/cartitem" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                app:srcCompat="@drawable/cartdeal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/mercimek_x1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="33dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/mercimek_x1"
+                        android:textAppearance="@style/mercimek_x1" />
+
+                    <TextView
+                        android:id="@+id/tl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="219dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/tl"
+                        android:textAppearance="@style/tl" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ekstra_limo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="33dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/ekstra_limo"
+                        android:textAppearance="@style/ekstra_limo" />
+
+                    <TextView
+                        android:id="@+id/tl1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="199dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/tl1"
+                        android:textAppearance="@style/tl" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/orta_boy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="33dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/orta_boy"
+                        android:textAppearance="@style/orta_boy" />
+
+                    <TextView
+                        android:id="@+id/tl2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="196dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/tl2"
+                        android:textAppearance="@style/tl" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/adet_tam_bu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="33dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/adet_tam_bu"
+                        android:textAppearance="@style/adet_tam_bu" />
+
+                    <TextView
+                        android:id="@+id/tl3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="138dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/tl3"
+                        android:textAppearance="@style/tl" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ndirim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="33dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/ndirim"
+                        android:textAppearance="@style/ndirim" />
+
+                    <TextView
+                        android:id="@+id/tl4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="225dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/tl4"
+                        android:textAppearance="@style/tl" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/toplam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="29dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="34dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/toplam"
+                        android:textAppearance="@style/toplam" />
+
+                    <TextView
+                        android:id="@+id/tl5"
+                        android:layout_width="62dp"
+                        android:layout_height="29dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="230dp"
+                        android:fontFamily="@font/urbanist"
+                        android:gravity="top"
+                        android:text="@string/tl"
+                        android:textAppearance="@style/tl" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/btncart"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/contcart" />
+
+            <TextView
+                android:id="@+id/TWPadding"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btnedge"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/HomeBtn"
+            android:layout_width="27.67dp"
+            android:layout_height="27.67dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/homebtn" />
+
+        <ImageButton
+            android:id="@+id/FavoriteBtn"
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/favbtn" />
+
+        <ImageButton
+            android:id="@+id/SearchBtn"
+            android:layout_width="28.5dp"
+            android:layout_height="28.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/searchbtn" />
+
+        <ImageButton
+            android:id="@+id/NotificationBtn"
+            android:layout_width="24dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/notificationbtn" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="29dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/cartbtn" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
